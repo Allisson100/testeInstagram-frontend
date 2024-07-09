@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["reactjs-social-login"],
+      external: ["reactjs-social-login", "react-social-login-buttons"],
     },
   },
 });
